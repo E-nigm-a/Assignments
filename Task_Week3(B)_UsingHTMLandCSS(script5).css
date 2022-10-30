@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    color: rgb(34, 53, 34);
+}
+
+.container{
+    width: 35%;
+    border: 2px;
+    margin: 50px;
+}  
+
+input[type=text], input[type=password], input[type=tel], input[type=email]{
+    width: 100%;
+    background: rgb(243, 252, 243);
+    border: none;
+    padding: 10px;  
+    display: inline-block;
+    margin: 4px 0 15px 0;
+}
+
+input[type=date]{
+    background: rgb(243, 252, 243);
+    border: none;
+    margin: 4px 0 15px 0;
+}
+
+[type=color], select{
+    background: rgb(243, 252, 243);
+    border: none;
+    margin: 4px 0 25px 0;
+}
+
+button{
+    padding: 5px;
+    background: rgb(185, 248, 185);
+    width: 20%;
+    border: none
+}
+
+button:hover{
+    background: rgb(34, 53, 34);
+    color: rgb(243, 252, 243);
+    cursor: pointer;
+    border: none;
+}
+
+main{
+    text-align: center;
+    margin: 20%;
+}
+
+.landing{
+    color: rgb(34, 53, 34)
+}
+
+p{
+    margin: 10px 0 10px 0
+}
+
+hr{
+    margin-bottom: 20px;
+}

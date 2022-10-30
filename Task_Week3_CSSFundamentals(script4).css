@@ -1,0 +1,42 @@
+#heading1 {
+  text-align: center;
+  color: white;
+  background-color: rgb(34, 53, 34);
+  padding: 1%;
+}
+
+.heading2 {
+  color: rgb(34, 53, 34);
+}
+
+body {
+  background-color: rgb(243, 252, 243);
+}
+
+button:hover {
+  background-color: rgb(243, 252, 243);
+  border: white;
+  color: rgb(34, 53, 34);
+}
+
+.section {
+  margin: 60px;
+  border-color: black;
+}
+
+footer {
+  margin: 30px;
+}
+
+#image {
+  align-self: center;
+}
+
+table {
+  width: 75%;
+}
+
+td {
+  text-align: justify;
+  vertical-align: top;
+}

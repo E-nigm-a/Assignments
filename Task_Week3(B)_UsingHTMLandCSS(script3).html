@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In - thEcoder</title>
+    <link rel="stylesheet" href="Task_Week3(B)_UsingHTMLandCSS(script5).css" />
+  </head>
+  <body>
+    <form action="Task_Week3(B)_UsingHTMLandCSS(script4).html">
+      <div class="container">
+        <h1 id="heading">Log in to thEcoder</h1>
+        <hr />
+        <label for="email"><strong>Email</strong></label> <br />
+        <input
+          type="email"
+          name="email"
+          placeholder="enigma@example.com"
+          id=""
+          required
+        />
+        <br />
+        <label for="pass"><strong>Password</strong></label> <br />
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="pass"
+          id=""
+          pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{8,}"
+          title="Must contain at least 8 characters consisting of uppercase, lowercase, a digit, 
+            and a symbol"
+          required
+        />
+        <br />
+        <button type="submit">Log In</button>
+      </div>
+    </form>
+  </body>
+</html>
